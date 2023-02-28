@@ -1,0 +1,43 @@
+@import "./variables.scss";
+.navBackground{
+    width: 100vw;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    padding: 20px 40px;
+    z-index: 10;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbarLinks{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+
+        .active{
+            font-weight: 800;
+            padding-bottom: 5px;
+            border-bottom: 3px solid $paleblue;
+            transition: 1s ease-in-out all;
+        }
+        li, li button{
+            font-family: $open-sans;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    li:hover{
+        transform: translateY(-2px);
+        transition: .5s ease-in-out all;
+    }
+        li button{
+            padding: 10px;
+            border: 2px solid $paleblue;
+            border-radius: 5px;
+        }
+    }
+}

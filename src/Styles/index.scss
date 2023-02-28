@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-input-placeholder{
+    text-transform: capitalize;
+    font-size: 12px;
+}
+::placeholder{
+    text-transform: capitalize;
+    font-size: 12px;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: $white;
+    overflow-x: hidden;
+}
+
+li{
+    list-style-type: none;
+}
