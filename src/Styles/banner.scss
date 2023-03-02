@@ -4,8 +4,9 @@
     height: calc(100vh - 5rem);
     display: flex;
     position: relative;
-   animation: slider 6s ease-in-out infinite ;
-    
+  
+
+
     .slider1, .slider2{
         min-width: 100%;
         min-height: 100%;
@@ -13,7 +14,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 40px;
+        padding: 0 80px;
 
         img{
             width: 100%;
@@ -29,32 +30,32 @@
             z-index: 10;
             font-family: $roboto;
             color: $white;
-            font-size: 63px;  
-            width: 65%; 
+            font-size: 45px;  
+            width: 50%; 
             opacity: 0;
             margin-bottom: 10px;   
        
     }
         p{
-            margin: 0 15px;
             z-index: 10;
             font-family: $roboto;
             color: $white;
-            font-size: 28px;
+            font-size: 22px;
             line-height: 44px;
-            width: 65%; 
+            width: 50%; 
         }
         button{
             z-index: 10;
            margin-top: 70px;
-            width: 180px;
+            width: 140px;
             font-family: $roboto;
-            color: $white;
-            font-size: 24px;
+            color: #000;
+            font-size: 16px;
+            font-weight: bold;
             padding: 15px;
             border: 2px solid $white;
-            background-color: transparent;
-            border-radius: 10px;
+            background-color: #fff;
+            border-radius: 30px;
             cursor: pointer;
         }
     }

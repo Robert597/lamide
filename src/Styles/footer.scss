@@ -1,0 +1,70 @@
+@import "./variables.scss";
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    width: 100vw;
+   background: rgba(2, 35, 57, 1);
+    
+   .sec1, .sec2, .sec3{
+    width: 33%;
+    margin-right: 30px;
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 24px;
+        padding: 15px 0;
+    }
+
+    p{
+        font-family: $roboto;
+        color: #fff;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+   }
+   .sec1{
+    ul{
+        display: flex;
+        padding: 15px 0;
+        li{
+            color: #fff;
+    margin-right: 10px; 
+font-size: 16px;       
+cursor: pointer;
+font-family: $roboto;  
+}
+    }
+   }
+   .sec2{
+    ul{
+        li{
+            color: #fff;
+    margin-right: 10px; 
+font-size: 16px;     
+font-family: $roboto;  
+cursor: pointer;
+margin-bottom: 5px;
+} 
+    }
+   }
+   .sec3{
+    ul{
+        li{
+            color: #fff;
+    margin-right: 10px; 
+font-size: 14px;     
+font-family: $roboto;  
+display: flex;
+align-items: center;
+cursor: pointer;
+margin-bottom: 5px;
+
+.icon{
+    font-size: 18px;
+    margin-right: 8px;
+}
+} 
+   }
+}
+}

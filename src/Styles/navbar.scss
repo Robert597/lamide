@@ -11,6 +11,14 @@
     justify-content: space-between;
     align-items: center;
 
+    .navlogo{
+        width: 100px;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
     .navbarLinks{
         display: flex;
         width: 60%;
@@ -18,14 +26,13 @@
         align-items: center;
 
         .active{
-            font-weight: 800;
-            padding-bottom: 5px;
-            border-bottom: 3px solid $paleblue;
+            padding-bottom: 2px;
+            border-bottom: 1px solid $paleblue;
             transition: 1s ease-in-out all;
         }
         li, li button{
-            font-family: $open-sans;
-            font-size: 18px;
+            font-family: $spartan;
+            font-size: 16px;
             font-weight: bold;
             cursor: pointer;
         }
