@@ -1,6 +1,6 @@
 import React from 'react';
 import check from "../../Assets/Checkmark.svg";
-import "../../Styles/program.scss";
+import "../../Styles/Home/program.scss";
 
 const Program = ({data}) => {
   return (

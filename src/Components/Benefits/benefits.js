@@ -3,7 +3,7 @@ import eclipse1 from "../../Assets/Group 16.svg"
 import eclipse2 from "../../Assets/Group 17.svg"
 import eclipse3 from "../../Assets/Group 18.svg"
 import eclipse4 from "../../Assets/Group 19.svg"
-import "../../Styles/benefit.scss";
+import "../../Styles/Home/benefit.scss";
 
 const Benefits = () => {
   return (

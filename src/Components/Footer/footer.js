@@ -2,6 +2,7 @@ import React from 'react';
 import {FaFacebook, FaTwitter, FaInstagram}from "react-icons/fa";
 import {MdLocationOn, MdMailOutline, MdPhone} from "react-icons/md";
 import "../../Styles/footer.scss";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -19,11 +20,16 @@ const Footer = () => {
         <div className='sec2'>
             <h1>Explore</h1>
             <ul>
-                <li>Home</li>
-                <li>Our Programs</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-                <li>Events</li>
+            <li><Link to="/">Home</Link></li>
+            <li 
+           >
+              <Link to="/programs">Our Programs</Link></li>
+            <li
+            ><Link to="/about">About Us</Link></li>
+            <li 
+           ><Link to="/contact">Contact Us</Link></li>
+            <li 
+           ><Link to="/events">Events</Link></li>
             </ul>
         </div>
         <div className='sec3'>

@@ -1,0 +1,41 @@
+@import "../variables.scss";
+.learn{
+    width: 100vw;
+    background: $white;
+    padding: 40px;
+
+    hr{
+        border: 1px solid $red;
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    h1{
+        text-align: center;
+        font-family: $roboto;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 30px;
+        padding: 10px 0;
+    }
+
+    h4{
+        text-align: center;
+        font-family: $roboto;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        width: 100%;
+
+        li{
+            font-size: 50px;
+            margin: 20px 15px;
+            cursor: pointer;
+        }
+    }
+}

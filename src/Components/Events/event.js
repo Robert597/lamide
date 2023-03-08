@@ -1,6 +1,6 @@
 import React from 'react';
 import card from "../../Assets/Rectangle 45.png";
-import "../../Styles/event.scss";
+import "../../Styles/Home/event.scss";
 import {motion} from "framer-motion";
 
 const Event = () => {

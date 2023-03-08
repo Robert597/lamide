@@ -1,0 +1,104 @@
+@import "../variables.scss";
+.minprog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+   
+
+    .minProgs{
+        display: flex;
+        width: 45%;
+        height: 292px;
+        margin: 15px 10px;
+        box-shadow: 3px 3px 2px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 3px 3px 2px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 3px 2px -3px rgba(0,0,0,0.75);
+        border-radius: 15px;
+
+        .progImage{
+            width: 40%;
+            height: 100%;
+            margin-right: 10px;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+            }
+        }
+
+        .progInfo{
+            min-width: 50%;
+            p{
+                font-size: 12px;
+                color: $paleblue;
+                font-family: $spartan;
+                margin-bottom: 5px;
+            }
+
+            h1{
+                font-family: $spartan;
+                color: #000;
+                font-size: 18px;
+                text-decoration: underline;
+                text-decoration-color: #000;
+                text-transform: capitalize;
+                margin-bottom: 5px;
+            }
+
+            ul{
+                padding: 10px 15px;
+
+                li{
+                    display: flex;
+                    align-items: center;
+                    font-family: $spartan;
+
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .lowerPart{
+                display: flex;
+                justify-content: space-between;
+
+                .duration{
+                    display: flex;
+                    align-items: center;
+                    font-size: 12px;
+                    font-family: $spartan;
+
+                    img{
+                        width: 20px;
+                        margin-right: 5px;
+                    }
+                }
+
+                .cardBtn{
+                    display: flex;
+                    justify-content: space-between;
+
+                    button{
+                        font-family: $spartan;
+                        padding: 10px;
+                        border: 1px solid $paleblue;
+                        cursor: pointer;
+                        background-color: $paleblue;
+                        color: $white;
+                        margin-right: 10px;
+                    }
+
+                    .firstBtn{
+                        background-color: transparent;
+                        color: $paleblue;
+                    }
+                }
+            }
+        }
+    }
+}

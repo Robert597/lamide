@@ -1,0 +1,14 @@
+@import "../variables.scss";
+.faq{
+    background: conic-gradient(from 90deg at -65647757969817129516531712% 33173226920.85%, #D70169 -308.25deg, #0080FF 7.89deg, #D70169 51.75deg, #0080FF 367.89deg);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: $spartan;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}

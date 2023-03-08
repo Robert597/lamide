@@ -2,7 +2,7 @@
  import banner1 from "../../Assets/banner1 (1).png";
  import banner2 from "../../Assets/banner1 (2).png";
  import banner3 from "../../Assets/Rectangle 21.png";
- import "../../Styles/banner.scss";
+ import "../../Styles/Home/banner.scss";
  import gsap from 'gsap';
  import {circIn, easeIn, easeInOut, motion, spring} from 'framer-motion';
  import {Swiper, SwiperSlide} from 'swiper/react';
@@ -60,14 +60,14 @@
             <motion.button
             initial="hidden"
             whileInView="visible"
-            whileHover={{scale: 1.05, y: "-10px", transition:{
+            whileHover={{scale: 1.05, y: "-5px", transition:{
               duration: .5,  ease: easeInOut
              }}}
             viewport={{once: true}}
             transition={{duration: 1, delay: 1, ease: easeIn}}
             variants={{
-              visible: {opacity: 1, scale: 1},
-              hidden:{opacity: 0, scale: 0.8}
+              visible: {opacity: 1},
+              hidden:{opacity: 0}
             }}>Learn More</motion.button>
         </SwiperSlide>
 
@@ -101,8 +101,8 @@
              viewport={{once: true}}
              transition={{duration: 1, delay: 1.7, ease: easeIn}}
              variants={{
-               visible: {opacity: 1, scale: 1},
-               hidden:{opacity: 0, scale: 0.8}
+               visible: {opacity: 1},
+               hidden:{opacity: 0}
              }}>Learn More</motion.button>
         </SwiperSlide>
 
@@ -137,8 +137,8 @@
             viewport={{once: true}}
             transition={{duration: 1, delay: 1, ease: easeIn}}
             variants={{
-              visible: {opacity: 1, scale: 1},
-              hidden:{opacity: 0, scale: 0.8}
+              visible: {opacity: 1},
+              hidden:{opacity: 0}
             }}>Learn More</motion.button>
         </SwiperSlide>
 

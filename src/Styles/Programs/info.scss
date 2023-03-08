@@ -1,0 +1,33 @@
+@import "../variables.scss";
+.info{
+    width: 100vw;
+    display: flex;
+    background-color: #eeeeee;
+    
+ 
+    
+
+    div{
+        font-family: $roboto;
+        border-right: 1px solid rgba(0,0,0,0.5);
+        padding: 50px 10px;
+        width: 33%;
+
+    
+        h1{
+            color: $red;
+            font-weight: bold;
+            font-size: 28px;
+            text-align: center;
+        }
+        p{
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    div:last-child{
+        border: none;
+    }
+}

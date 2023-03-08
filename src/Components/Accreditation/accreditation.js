@@ -6,7 +6,8 @@ import uk from "../../Assets/uk.svg";
 import australia from "../../Assets/australia.svg";
 import Chat from "../../Assets/Chat Message.svg";
 import Call from "../../Assets/Call male.svg";
-import "../../Styles/accreditation.scss";
+import rectangle from "../../Assets/Rectangle 48.png";
+import "../../Styles/Home/accreditation.scss";
 
 const Accreditation = () => {
   return (

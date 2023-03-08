@@ -1,0 +1,30 @@
+@import "../variables.scss";
+.exploreBanner{
+    background: conic-gradient(from 90deg at -65647757969817129516531712% 33173226920.85%, #D70169 -308.25deg, #0080FF 7.89deg, #D70169 51.75deg, #0080FF 367.89deg);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    h1{
+        color: #fff;
+        font-family: $spartan;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 26px;
+    }
+div{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    p{
+        color: #fff;
+        font-family: $spartan;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 18px;
+        width: 50%;
+    }
+}
+}
