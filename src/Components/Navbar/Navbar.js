@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from '../../Assets/Logo.svg';
 import "../../Styles/navbar.scss";
-import {Link, Navigate} from "react-router-dom";
+import {NavLink, Navigate} from "react-router-dom";
+import MenuController from './MenuConroller';
+
 
 const Navbar = () => {
-  const[active, setActive] = React.useState("Home");
+
 
   return (
     <div className='navBackground'>
@@ -14,25 +16,22 @@ const Navbar = () => {
         </div>
 
         <ul className='navbarLinks'>
+        <li 
+           >
+              <NavLink exact activeClassName="active" to="/">Home</NavLink></li>
             <li 
-            className={active === "Home" && 'active'}
-            onClick={() => setActive("Home")}>
-              <Link to="/">Home</Link></li>
-            <li 
-            className={active === "Program" && 'active'}
-            onClick={() => setActive("Program")}>
-              <Link to="/programs">Our Programs</Link></li>
+           >
+              <NavLink activeClassName="active" to="/programs">Our Programs</NavLink></li>
             <li
-             className={active === "About" && 'active'}
-             onClick={() => setActive("About")}><Link to="/about">About Us</Link></li>
+            ><NavLink activeClassName="active" to="/about">About Us</NavLink></li>
             <li 
-            className={active === "Contact" && 'active'}
-            onClick={() => setActive("Contact")}><Link to="/contact">Contact Us</Link></li>
+           ><NavLink activeClassName="active" to="/contact">Contact Us</NavLink></li>
             <li 
-            className={active === "Events" && 'active'}
-            onClick={() => setActive("Events")}><Link to="/events">Events</Link></li>
+           ><NavLink activeClassName="active" to="/events">Events</NavLink></li>
             <li><button onClick={() => Navigate("/contact")}>Chat with us</button></li>
         </ul>
+
+        <MenuController/>
     </div>
   )
 }

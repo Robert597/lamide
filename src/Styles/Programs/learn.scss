@@ -4,10 +4,18 @@
     background: $white;
     padding: 40px;
 
+    @include intermediary{
+        padding: 40px 15px;
+      }
+
     hr{
         border: 1px solid $red;
         width: 300px;
         margin: 10px auto;
+
+        @include cards{
+            width: 150px;
+         }
     }
 
     h1{
@@ -17,6 +25,16 @@
         text-transform: capitalize;
         font-size: 30px;
         padding: 10px 0;
+
+        @include cards{
+            font-size: 25px;
+         }
+         @include intermediary{
+            font-size: 20px;
+         }
+         @include small{
+            font-size: 16px;
+         }
     }
 
     h4{
@@ -24,6 +42,11 @@
         font-family: $roboto;
         text-transform: capitalize;
         font-size: 16px;
+
+         @include intermediary{
+            font-size: 14px;
+         }
+       
     }
 
     ul{

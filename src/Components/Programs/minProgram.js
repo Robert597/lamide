@@ -1,8 +1,10 @@
 import React from 'react';
 import check from "../../Assets/Checkmark.svg";
 import clock from "../../Assets/Delivery Time.svg";
+import { useNavigate } from 'react-router-dom';
 
 const MinProgram = ({course}) => {
+    const navigate = useNavigate();
   return (
     <div className='minProgs'>
         <div className="progImage">
@@ -21,7 +23,9 @@ const MinProgram = ({course}) => {
                 <div className="duration"><img src={clock}  alt="icon"/> 4-12 weeks</div>
 
                 <div className="cardBtn">
-            <button className='firstBtn'>View Course</button>
+            <button className='firstBtn' onClick={() => {
+                navigate(`/detail/${course?.id}`)
+            }}>View Course</button>
             <button>Enroll Now</button>
         </div>
             </div>

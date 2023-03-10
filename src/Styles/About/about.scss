@@ -1,0 +1,94 @@
+@import "../variables.scss";
+.about{
+    width: 100vw;
+    h1{
+        font-family: $roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 47px;
+        text-align: center;
+
+        @include cards{
+            font-size: 25px;
+         }
+         @include intermediary{
+            font-size: 20px;
+         }
+         @include small{
+            font-size: 16px;
+         }
+    }
+  
+    .aboutInfo{
+        width: 100%;
+    padding: 40px;   
+    display: flex;
+
+    @include medium{
+        flex-direction: column-reverse;
+    }
+
+    @include intermediary{
+        padding: 40px 15px;
+    }
+    .Info{
+        h1{
+            text-align: left;
+            text-decoration: underline;
+            text-decoration-color: $orange;
+            text-underline-offset: 10px;
+            text-transform: uppercase;
+
+            @include medium{
+                text-align: center;
+            }
+        }
+
+        p{
+            font-family: $spartan;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+padding-top: 15px;
+
+@include intermediary{
+    font-size: 14px;
+}
+
+        }
+
+        ul{
+            list-style-type: square;
+            font-family: $spartan;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+
+            li{
+                list-style-type: square;
+                list-style-position: inside;
+                margin-bottom: 10px;
+
+                @include intermediary{
+                    font-size: 14px;
+                   margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .Image{
+        min-width: 50%;
+        @include medium{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+ }
+}

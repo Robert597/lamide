@@ -11,6 +11,10 @@
     justify-content: space-between;
     align-items: center;
 
+    @include intermediary{
+        padding: 20px;
+    }
+
     .navlogo{
         width: 100px;
 
@@ -25,6 +29,13 @@
         justify-content: space-between;
         align-items: center;
 
+        @include large{
+            width: 70%;
+        }
+        @include medium{
+            display: none;
+        }
+
         .active{
             padding-bottom: 2px;
             border-bottom: 1px solid $paleblue;
@@ -33,7 +44,7 @@
         li, li button{
             font-family: $spartan;
             font-size: 16px;
-            font-weight: bold;
+            font-weight: normal;
             cursor: pointer;
 
             a{

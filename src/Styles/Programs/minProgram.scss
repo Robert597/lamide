@@ -1,14 +1,31 @@
 @import "../variables.scss";
 .minprog{
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+
+    @include card {
+        grid-template-columns: repeat(auto-fit, 45%);
+    }
+    @include cards{
+        grid-template-columns: repeat(auto-fit, 100%);
+    }
+    @include medium{
+        padding: 40px 10px;
+    }
+    column-gap: 10px;
+    row-gap: 15px;
     justify-content: center;
-    flex-wrap: wrap;
+    place-items: center;
+    padding: 60px 0;
+
+
+
     padding: 40px;
    
 
     .minProgs{
         display: flex;
-        width: 45%;
         height: 292px;
         margin: 15px 10px;
         box-shadow: 3px 3px 2px -3px rgba(0,0,0,0.75);

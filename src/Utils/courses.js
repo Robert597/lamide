@@ -13,6 +13,7 @@
 
  const data = [
     {
+        id: 1,
         title: "Nursing Assistant",
         detail: "A nursing assistant provides basic daily care for patients in short term and long-term medical facilities.",
         outline: [
@@ -24,6 +25,7 @@
        image: First
     },
     {
+        id: 2,
         title: "Diploma in Health and Social Care",
         detail: "",
         outline: ["NHCPS Certificate", "Self-paced learning", "Cohort Learning", "Live with instructor", "One-on-One mentorship", "Up to two-time installment payment"],
@@ -31,6 +33,7 @@
         image: Second
     },
     {
+        id: 3,
         title: "Diploma in Pharmacy Assistant",
         detail: "The learner will be able to understand the roles and responsibilities of a pharmacy assistant, recognise the necessary skills ...",
         outline: [
@@ -41,6 +44,7 @@
         image: Third
     },
     {
+        id: 4,
         title: "Up to two-time installment payment",
         detail: "Our HIM course will prepare you with the skills and knowledge to be at the forefront ...",
         outline: [
@@ -53,6 +57,7 @@
         image: Fourth
     },
     {
+        id: 5,
         title: "Mental Health Certification",
         detail: "We explain how to identify a range of neurotic and psychotic behavioral tendencies ...",
         outline: [
@@ -65,6 +70,7 @@
         image: Fifth
     },
     {
+        id: 6,
         title: "Psychology at Workplace",
         detail: "This course covers the main concepts of Workplace Psychology, focusing on the techniques of Job Analysis ...",
         outline: [
@@ -77,6 +83,7 @@
         image: Sixth
     },
     {
+        id: 7,
         title: "Care Certification Standard (1-15)",
         detail: "",
         outline: [
@@ -89,6 +96,7 @@
         image: Seventh
     },
     {
+        id: 8,
         title: "Cardiopulmonary Resuscitation & First aid",
         detail: "",
         outline: [
@@ -101,6 +109,7 @@
         image: Eigth
     },
     {
+        id: 9,
         title: "Psychiatric and mental health",
         detail: "",
         outline: [
@@ -113,6 +122,7 @@
         image: Ninth
     },
     {
+        id: 10,
         title: "Basic Life Support (For real nursing)",
         detail: "This Basic Life Support training course is suitable for all healthcare and social care professionals ...",
         outline: [
@@ -125,6 +135,7 @@
         image: Tenth
     },
     {
+        id: 11,
         title: "Advanced Cardiac Life Support",
         detail: "ACLS is for healthcare professionals who either direct or participate in the management of cardiopulmonary arrest ...",
         outline: [
@@ -137,6 +148,7 @@
         image: Eleventh
     },
     {
+        id: 12,
         title: "Pediatric Life Support (real nursing)",
         detail: "The course provides life-saving procedures and skills to employ when faced by emergency situations ...",
         outline: [

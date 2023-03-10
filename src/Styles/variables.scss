@@ -19,3 +19,46 @@ $lightpurple: rgba(168, 63, 198, 1);
 $purple: rgba(217, 26, 192, 1);
 $red: rgba(215, 1, 105, 1);
 $orange: rgba(236, 34, 59, 1);
+
+$screen-sm: 460px;
+$screen-s-md: 580px;
+$screen-md: 800px;
+$screen-lg: 1000px;
+$screen-xl: 1200px;
+
+
+//breakpoints
+@mixin small { 
+    @media (max-width: #{$screen-sm}){
+        @content;
+    }
+}
+
+@mixin intermediary { 
+    @media (max-width: #{$screen-s-md}){
+        @content;
+    }
+}
+@mixin cards { 
+    @media (max-width: #{768px}){
+        @content;
+    }
+}
+
+
+@mixin medium {
+    @media (max-width: #{$screen-md}){
+        @content;
+    }
+}
+@mixin card {
+    @media (max-width: #{900px}){
+        @content;
+    }
+}
+
+@mixin large {
+    @media (max-width: #{$screen-lg}){
+        @content;
+    }
+}

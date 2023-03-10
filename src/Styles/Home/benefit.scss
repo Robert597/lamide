@@ -3,11 +3,18 @@
     width: 100vw;
     background: $white;
     padding: 40px;
+    @include intermediary{
+        padding: 40px 15px;
+      }
 
     hr{
         border: 1px solid $orange;
         width: 300px;
         margin: 10px auto;
+
+        @include cards{
+            width: 150px;
+         }
     }
 
     h1{
@@ -17,12 +24,28 @@
         text-transform: capitalize;
         font-size: 30px;
         padding: 10px 0;
+
+        @include cards{
+            font-size: 25px;
+         }
+         @include intermediary{
+            font-size: 20px;
+         }
+         @include small{
+            font-size: 16px;
+         }
     }
 
     .benefits{
         display: flex;
         justify-content: space-between;
         padding: 30px 0;
+        @include medium{
+            flex-wrap: wrap;
+        }
+        @include intermediary{
+            justify-content: center;
+        }
 
         .benefit{
             display: flex;
@@ -30,6 +53,14 @@
             align-items: center;
             margin-right: 10px;
             width: 25%;
+
+            @include medium{
+                width: 45%;
+                margin: 0 0 10px;
+            }
+            @include intermediary{
+                width: 100%;
+            }
             img{
                 width: 40px;
                 height: 40px;

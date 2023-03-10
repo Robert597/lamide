@@ -4,7 +4,9 @@
     display: flex;
     background-color: #eeeeee;
     
- 
+ @include intermediary{
+    flex-direction: column;
+ }
     
 
     div{
@@ -13,17 +15,35 @@
         padding: 50px 10px;
         width: 33%;
 
-    
+        @include intermediary{
+            width: 100%;
+            border-right: none;
+            border-bottom: 1px solid rgba(0,0,0,0.5);
+         }
         h1{
             color: $red;
             font-weight: bold;
             font-size: 28px;
             text-align: center;
+
+            @include medium{
+                font-size: 20px; 
+            }
+            @include intermediary{
+                font-size: 24px; 
+            }
         }
         p{
             font-weight: bold;
             font-size: 18px;
             text-align: center;
+
+            @include medium{
+                font-size: 14px; 
+            }
+            @include intermediary{
+                font-size: 16px; 
+            }
         }
     }
 

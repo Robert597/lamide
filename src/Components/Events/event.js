@@ -36,7 +36,7 @@ const Event = () => {
               <motion.img src={card} alt="card"
               initial="hidden"
               whileInView="visible"
-              viewport={{once: false,
+              viewport={{once: true,
             margin: "150px"}}
             
               variants={imgVariant}/>
@@ -48,7 +48,7 @@ const Event = () => {
                     <motion.span
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{once: false,
+                    viewport={{once: true,
                   margin: "150px"}}
                   
                     variants={textVariant}>For Our Upcoming</motion.span>

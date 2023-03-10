@@ -7,6 +7,10 @@
     justify-content: center;
     margin-bottom: 10px;
 
+    @include medium{
+        padding: 0 15px;
+    }
+
     h1{
         color: #fff;
         font-family: $spartan;
@@ -25,6 +29,14 @@ div{
         text-transform: capitalize;
         font-size: 18px;
         width: 50%;
+
+        @include medium{
+            width: 100%;
+            font-size: 16px;
+        }
+        @include intermediary{
+            font-size: 14px;
+        }
     }
 }
 }

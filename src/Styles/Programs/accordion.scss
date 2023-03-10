@@ -1,6 +1,9 @@
 @import "../variables.scss";
 .accordion{
     padding: 40px;
+    @include medium{
+        padding: 40px 10px;  
+    }
     width: 100%;
 
     li{
@@ -20,6 +23,10 @@
             font-size: 18px;
             font-weight: 500;
             cursor: pointer;
+
+            @include intermediary{
+                font-size: 14px;
+            }
         }
 
         label::before{
@@ -27,6 +34,10 @@
             margin-right: 10px;
             font-size: 18px;
             font-weight: 600;
+
+            @include intermediary{
+                font-size: 14px;
+            }
         }
 
         input[type="radio"]{
@@ -44,6 +55,10 @@
             color: rgba(0,0,0,0.8);
             line-height: 26px;
             font-family: $spartan;
+
+            @include intermediary{
+                font-size: 14px;
+            }
         }
 
         input[type="radio"]:checked + label + .content{

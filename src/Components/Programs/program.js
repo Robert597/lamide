@@ -1,8 +1,10 @@
 import React from 'react';
 import check from "../../Assets/Checkmark.svg";
 import "../../Styles/Home/program.scss";
+import {useNavigate} from "react-router-dom";
 
 const Program = ({data}) => {
+    const navigate = useNavigate();
   return (
     <div className='cardContainer'>
         <div className='cardImgContainer'>
@@ -19,7 +21,9 @@ const Program = ({data}) => {
             }
         </ul>
         <div className="cardBtn">
-            <button className='firstBtn'>View Course</button>
+            <button className='firstBtn' onClick={() => {
+                navigate(`/detail/${data?.id}`)
+            }}>View Course</button>
             <button>Enroll Now</button>
         </div>
         <div className="price">{data?.price}</div>

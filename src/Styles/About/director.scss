@@ -1,0 +1,56 @@
+@import "../variables.scss";
+.director{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+    @include intermediary{
+        padding: 40px 15px;
+      }
+
+    h1{
+ font-family: $roboto;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 47px;
+margin-bottom: 15px;
+
+@include cards{
+    font-size: 25px;
+ }
+ @include intermediary{
+    font-size: 20px;
+ }
+ @include small{
+    font-size: 16px;
+ }
+    }
+
+    img{
+        width: 456px;
+height: 384px;
+object-fit: cover;
+margin: 15px 0;
+
+@include intermediary{
+    width: 300px;
+}
+    }
+    p{
+        font-family: $roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+width: 50%;
+
+@include intermediary{
+width: 100%;
+font-size: 16px;
+line-height: 20px;
+}
+    }
+}

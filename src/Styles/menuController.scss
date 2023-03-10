@@ -1,0 +1,65 @@
+@import "./variables.scss";
+.menu{
+    display:none;
+  position: relative;
+
+  @include medium{
+    display: block;
+  }
+
+  & .MenuController{
+    font-size: 18px;
+    cursor: pointer;
+    color: #000;
+  }
+
+  & .modal{
+    border-radius: 12px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    
+    padding: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 1rem;
+    z-index: 2000;
+    user-select: none;
+    min-width: 180px;
+    min-height: 120px;
+    padding: 10px;
+
+   
+ 
+
+
+
+  }
+  & .absoluteChild{
+   
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    transform: "translateZ(0) scale(1)";
+              
+  }
+  & .showchild{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    transform: "translate3d(-60px,-100px,0) scale(.2)"};
+
+    .navbarLinks{
+       display: block;
+       padding: 20px 15px;
+       width: 100%;
+
+       li{
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 16px;
+        width: 100%;
+       }
+    }
+  }
