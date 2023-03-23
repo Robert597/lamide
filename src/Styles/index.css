@@ -57,12 +57,13 @@ body {
   bottom: 40px;
   right: 40px;
   border: none;
-  -webkit-animation: bounce 0.5s;
-          animation: bounce 0.5s;
+  z-index: 11;
+  -webkit-animation: bounce 1s;
+          animation: bounce 1s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   -webkit-animation-name: bounce;
-  -webkit-animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-direction: alternate;
   -webkit-animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
   -webkit-animation-iteration-count: infinite;
@@ -79,25 +80,25 @@ body {
   display: inline-block;
 }
 
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-10);
+            transform: translateY(-10);
+  }
+}
+
 @keyframes bounce {
   from {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
   to {
-    -webkit-transform: translateY(200);
-            transform: translateY(200);
-  }
-}
-
-@-webkit-keyframes bounce {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(0, 200px, 0);
-    transform: translate3d(0, 200px, 0);
+    -webkit-transform: translateY(-10);
+            transform: translateY(-10);
   }
 }
 

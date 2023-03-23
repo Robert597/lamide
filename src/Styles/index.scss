@@ -40,11 +40,13 @@ body{
     bottom: 40px;
     right:40px;
     border: none;
-    animation: bounce 0.5s;
+    z-index: 11;
+
+    animation: bounce 1s;
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 -webkit-animation-name: bounce;
-                -webkit-animation-duration: 0.5s;
+                -webkit-animation-duration: 1s;
                 -webkit-animation-direction: alternate;
                 -webkit-animation-timing-function: cubic-bezier(
                 .5, 0.05, 1, .5);
@@ -68,20 +70,11 @@ body{
       transform: translateY(0);
     }
     to{
-      transform: translateY(200);
+      transform: translateY(-10);
     }
   }
 
-  @-webkit-keyframes bounce {
-    from {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        -webkit-transform: translate3d(0, 200px, 0);
-        transform: translate3d(0, 200px, 0);
-    }
-}
+  
 
 li{
     list-style-type: none;
