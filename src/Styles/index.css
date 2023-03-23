@@ -52,6 +52,55 @@ body {
   overflow-x: hidden;
 }
 
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border: none;
+  -webkit-animation: bounce 0.5s;
+          animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  -webkit-animation-iteration-count: infinite;
+}
+
+.whatsapp a {
+  color: #25d366;
+  font-size: 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.whatsapp a .whasappIcon {
+  display: inline-block;
+}
+
+@keyframes bounce {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(200);
+            transform: translateY(200);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 200px, 0);
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
 li {
   list-style-type: none;
 }

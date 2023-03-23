@@ -51,7 +51,7 @@ const Accreditation = () => {
     <button>
         <img src={Chat} alt="call"/>
 
-        <a href='https://wa.me/08112320218' target="_blank" rel="noreferrer">
+        <a href='https://wa.me/+2348112320218' target="_blank" rel="noreferrer">
         Chat With us
         </a>
     </button>

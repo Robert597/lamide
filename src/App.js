@@ -11,6 +11,7 @@ import About from "./Pages/About/about";
 import Contact from "./Pages/Contact/contact";
 import Detail from "./Pages/Project/detail";
 import React from 'react';
+import {IoLogoWhatsapp} from "react-icons/io";
 
 function App() {
   const {pathname} = useLocation();
@@ -21,6 +22,7 @@ function App() {
   
   return (
     <div className="App">
+      <button className="whatsapp"><a href="https://wa.me/+2348112320218" target="_blank" rel="noreferrer"><IoLogoWhatsapp className='whasappIcon'/></a></button>
      <Navbar/>
     <Routes>
       <Route index path="/" element={<Home/>}/>

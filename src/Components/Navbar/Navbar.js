@@ -29,7 +29,7 @@ const Navbar = () => {
            ><NavLink activeClassName="active" to="/contact">Contact Us</NavLink></li>
             <li 
            ><NavLink activeClassName="active" to="/events">Events</NavLink></li>
-            <li className="whatsapp"><a href="https://wa.me/08112320218" target="_blank" rel="noreferrer"><IoLogoWhatsapp className='whasappIcon'/></a></li>
+            <li className="whatsapp"><a href="https://wa.me/+2348112320218" target="_blank" rel="noreferrer"><IoLogoWhatsapp className='whasappIcon'/></a></li>
         </ul>
 
         <MenuController/>

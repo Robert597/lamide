@@ -34,7 +34,6 @@ const MenuController = () => {
             <li 
            ><NavLink onClick={() => setShowMenuModal(prev => !prev)}activeClassName="active" to="/events">Events</NavLink></li>
 
-            <li><button onClick={() => Navigate("/contact")}>Chat with us</button></li>
         </ul>
         </div>
 
