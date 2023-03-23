@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaFacebook, FaTwitter, FaInstagram}from "react-icons/fa";
-import {MdLocationOn, MdMailOutline, MdPhone} from "react-icons/md";
+import { MdMailOutline, MdPhone} from "react-icons/md";
+import {ImLocation} from "react-icons/im";
 import "../../Styles/footer.scss";
 import { Link } from 'react-router-dom';
 
@@ -9,11 +10,11 @@ const Footer = () => {
     <div className="footer">
         <div className='sec1'>
             <h1>SFICARE</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium aliquam felis et bibendum. </p>
+            <p>SFI HEALTH AND CARE initiative handles training/lecture arrangement for various health and social care diploma and certification courses which could be used for migration to UK, USA, Canada and Australia on work visa or permanent residency arrangements. </p>
             <ul>
-                <li><FaFacebook/></li>
-                <li><FaTwitter/></li>
-                <li><FaInstagram/></li>
+                <li><a href='https://www.facebook.com/sfihealthcare'><FaFacebook/></a></li>
+                <li><a href='https://twitter.com/sficare_'><FaTwitter/></a></li>
+                <li><a href="https://www.instagram.com/sfi_care/"><FaInstagram/></a></li>
             </ul>
         </div>
 
@@ -35,7 +36,7 @@ const Footer = () => {
         <div className='sec3'>
             <h1>Address</h1>
             <ul>
-                <li><MdLocationOn className="icon"/> LOA Aremu Court, Ashi/Bodija Junction, Bashorun Road, Ibadan, Oyo state, Nigeria.</li>
+                <li><ImLocation className="icon"/> LOA Aremu Court, Ashi/Bodija Junction, Bashorun Road, Ibadan, Oyo state, Nigeria.</li>
                 <li><MdPhone className="icon"/> 08135430382, 08112320218</li>
                 <li><MdMailOutline className="icon"/> info@sficare.org</li>
             </ul>

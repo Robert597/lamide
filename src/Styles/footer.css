@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 40px;
+  width: 100vw;
+  background: #022339;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer .sec1, .footer .sec2, .footer .sec3 {
+  width: 33%;
+  margin-right: 30px;
+}
+
+@media (max-width: 800px) {
+  .footer .sec1, .footer .sec2, .footer .sec3 {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+}
+
+.footer .sec1 h1, .footer .sec2 h1, .footer .sec3 h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+@media (max-width: 800px) {
+  .footer .sec1 h1, .footer .sec2 h1, .footer .sec3 h1 {
+    text-align: center;
+  }
+}
+
+.footer .sec1 p, .footer .sec2 p, .footer .sec3 p {
+  font-family: "Roboto", "Times New Roman";
+  color: #fff;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 800px) {
+  .footer .sec1 p, .footer .sec2 p, .footer .sec3 p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.footer .sec1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+}
+
+@media (max-width: 800px) {
+  .footer .sec1 ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.footer .sec1 ul li {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Roboto", "Times New Roman";
+}
+
+@media (max-width: 800px) {
+  .footer .sec1 ul li {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer .sec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer .sec2 ul li {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: "Roboto", "Times New Roman";
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .footer .sec2 ul li {
+    text-align: center;
+  }
+}
+
+.footer .sec2 ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .footer .sec3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer .sec3 ul li {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: "Roboto", "Times New Roman";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .footer .sec3 ul li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+.footer .sec3 ul li .icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+/*# sourceMappingURL=footer.css.map */

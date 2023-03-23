@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from "../../Assets/Rectangle 98.png";     
+import AboutImg from "../../Assets/Logo.svg";     
 import "../../Styles/About/about.scss"; 
 
 const AboutInfo = () => {
@@ -11,7 +11,7 @@ const AboutInfo = () => {
             <div className="Info">
                 <h1>Who We Are</h1>
 
-                <p>SFI CARE is a medical learning program, a subsidiary of EDUCONSULT (educational institute). We are based in Ibadan, Oyo state, Nigeria. We offer diploma and certificate courses on health and wellness that are relevant internationally, and issued by NHCPS.
+                <p>SFI CARE is a medical learning program, a subsidiary of EDUCONSULT (educational institute). We are based in Ibadan, Oyo state, Nigeria. We offer diploma and certificate courses on health and wellness that are relevant internationally with CPD certification, and issued by NHCPS.
 <br/>
 <br/>
 

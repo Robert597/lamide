@@ -11,8 +11,9 @@ const MinProgram = ({course}) => {
             <img src={course?.image} alt="course image"/>
         </div>
         <div className='progInfo'>
-            <p>{course?.price}</p>
+            <h2>&#8358;{course?.price}</h2>
             <h1>{course?.title}</h1>
+            <p>{course?.detail}</p>
             <ul>
                 {course?.outline.map((list) => (
                      <li><img src={check} alt="icon"/> {list}</li>

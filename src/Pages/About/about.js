@@ -2,7 +2,7 @@ import React from 'react'
 import AboutInfo from '../../Components/About/about';
 import Goal from '../../Components/Goal/goal';
 import Director from '../../Components/About/director';
-import Explore from '../../Components/Explore/explore';
+import Explore from '../../Components/Explore/Aboutexplore';
 import Benefits from '../../Components/Benefits/benefits';
 import FAQ from '../../Components/FAQ/faq';
 import Accordion from '../../Components/FAQ/accordion';

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.faq {
+  background: conic-gradient(from 90deg at -65647757969817129516531712% 33173226920.8%, #D70169 -308.25deg, #0080FF 7.89deg, #D70169 51.75deg, #0080FF 367.89deg);
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+/*# sourceMappingURL=faq.css.map */

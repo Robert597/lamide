@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.explore {
+  padding: 40px;
+}
+
+@media (max-width: 580px) {
+  .explore {
+    padding: 40px 10px;
+  }
+}
+
+.explore h1 {
+  font-family: "League Spartan", sans-serif;
+  color: #0092f2;
+  text-align: center;
+  font-size: 24px;
+}
+
+.explore .course-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .explore .course-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.explore .course-cont div {
+  width: 50%;
+  margin: 0 10px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .explore .course-cont div {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.explore .course-cont div button {
+  position: absolute;
+  bottom: -15px;
+  background-color: #fff;
+  color: #0092f2;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-family: "League Spartan", sans-serif;
+  -webkit-box-shadow: 18px 14px 9px rgba(0, 0, 0, 0.01), 10px 8px 8px rgba(0, 0, 0, 0.05), 5px 3px 6px rgba(0, 0, 0, 0.09), 1px 1px 3px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 18px 14px 9px rgba(0, 0, 0, 0.01), 10px 8px 8px rgba(0, 0, 0, 0.05), 5px 3px 6px rgba(0, 0, 0, 0.09), 1px 1px 3px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.explore .course-cont div button a {
+  color: #0092f2;
+  text-decoration: none;
+}
+
+.explore .course-cont div p {
+  font-family: "League Spartan", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.explore .course-cont .diploma {
+  background: url("../../Assets/Rectangle 57.png");
+}
+
+.explore .course-cont .certificate {
+  background: url("../../Assets/Rectangle 56.png");
+}
+/*# sourceMappingURL=explore.css.map */

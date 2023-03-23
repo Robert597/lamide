@@ -6,10 +6,11 @@ import uk from "../../Assets/uk.svg";
 import australia from "../../Assets/australia.svg";
 import Chat from "../../Assets/Chat Message.svg";
 import Call from "../../Assets/Call male.svg";
-import rectangle from "../../Assets/Rectangle 48.png";
+import {useNavigate} from "react-router-dom"
 import "../../Styles/Home/accreditation.scss";
 
 const Accreditation = () => {
+    const navigate = useNavigate();
   return (
     <div className="accreditation">
          <hr/>
@@ -43,13 +44,16 @@ const Accreditation = () => {
             <p>Talk to an agent, Accelerate your travelling process, safely.</p>
 
             <div className="AccredButtons">
-    <button>
+    <button onClick={() => navigate("/contact")}>
         <img src={Call} alt="call"/>
         Contact Us Now
     </button>
     <button>
         <img src={Chat} alt="call"/>
+
+        <a href='https://wa.me/08112320218' target="_blank" rel="noreferrer">
         Chat With us
+        </a>
     </button>
             </div>
         </div>

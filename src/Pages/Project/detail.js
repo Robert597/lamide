@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../Utils/courses';
+import {data} from '../../Utils/courses';
 import { useParams } from 'react-router-dom';
 import {BsFillPatchCheckFill} from "react-icons/bs";
 import {IoMdPricetags} from "react-icons/io";

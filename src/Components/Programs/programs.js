@@ -1,6 +1,7 @@
 import React from 'react';
-import data from "../../Utils/courses.js";
+import {data} from "../../Utils/courses.js";
 import Program from './program.js';
+
 
 
 

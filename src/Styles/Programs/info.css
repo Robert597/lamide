@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.info {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eeeeee;
+}
+
+@media (max-width: 580px) {
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.info div {
+  font-family: "Roboto", "Times New Roman";
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 50px 10px;
+  width: 33%;
+}
+
+@media (max-width: 580px) {
+  .info div {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+}
+
+.info div h1 {
+  color: #d70169;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .info div h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .info div h1 {
+    font-size: 24px;
+  }
+}
+
+.info div p {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .info div p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  .info div p {
+    font-size: 16px;
+  }
+}
+
+.info div:last-child {
+  border: none;
+}
+/*# sourceMappingURL=info.css.map */

@@ -10,6 +10,8 @@ import MinPrograms from '../../Components/Programs/minprograms';
 import FAQ from '../../Components/FAQ/faq';
 import Accordion from '../../Components/FAQ/accordion';
 import Learn from '../../Components/FAQ/learn';
+import {diploma, certificate} from "../../Utils/courses";
+
 
 const Program = () => {
   return (
@@ -20,8 +22,10 @@ const Program = () => {
         <CourseInfo/>
         <Explore/>
         <Benefits/> 
-        <Banner/>
-        <MinPrograms/>
+        <Banner title={"Diploma"}/>
+        <MinPrograms data={diploma}/>
+        <Banner title={"Certificate"}/>
+        <MinPrograms data={certificate}/>
         <FAQ/>
         <Accordion/>
         <Learn/>

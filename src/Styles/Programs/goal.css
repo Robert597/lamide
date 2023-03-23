@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.goal {
+  width: 100vw;
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+@media (max-width: 580px) {
+  .goal {
+    padding: 40px 15px;
+  }
+}
+
+.goal hr {
+  border: 1px solid #d70169;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.goal h1 {
+  text-align: center;
+  font-family: "Roboto", "Times New Roman";
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 30px;
+  padding: 10px 0;
+  color: #d70169;
+}
+
+@media (max-width: 580px) {
+  .goal h1 {
+    font-size: 24px;
+  }
+}
+
+.goal p {
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  padding: 10px 50px;
+}
+
+@media (max-width: 580px) {
+  .goal p {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=goal.css.map */

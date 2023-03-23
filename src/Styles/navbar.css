@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.navBackground {
+  width: 100vw;
+  height: 5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px 40px;
+  z-index: 10;
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 580px) {
+  .navBackground {
+    padding: 20px;
+  }
+}
+
+.navBackground .navlogo {
+  width: 100px;
+}
+
+.navBackground .navlogo img {
+  width: 100%;
+  height: auto;
+}
+
+.navBackground .navbarLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .navBackground .navbarLinks {
+    width: 70%;
+  }
+}
+
+@media (max-width: 800px) {
+  .navBackground .navbarLinks {
+    display: none;
+  }
+}
+
+.navBackground .navbarLinks .active {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #0092f2;
+  -webkit-transition: 1s ease-in-out all;
+  transition: 1s ease-in-out all;
+}
+
+.navBackground .navbarLinks li, .navBackground .navbarLinks li button {
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.navBackground .navbarLinks li a, .navBackground .navbarLinks li button a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navBackground .navbarLinks .whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.navBackground .navbarLinks .whatsapp a {
+  color: #25d366;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.navBackground .navbarLinks .whatsapp a .whasappIcon {
+  display: inline-block;
+  -webkit-animation: bounce 0.5s;
+          animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  -webkit-animation-iteration-count: infinite;
+}
+
+.navBackground .navbarLinks li:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transition: .5s ease-in-out all;
+  transition: .5s ease-in-out all;
+}
+
+.navBackground .navbarLinks li button {
+  padding: 10px;
+  border: 2px solid #0092f2;
+  border-radius: 5px;
+}
+
+@keyframes bounce {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate(3d 0, 200px, 0);
+            transform: translate(3d 0, 200px, 0);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 200px, 0);
+    transform: translate3d(0, 200px, 0);
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -9,9 +9,9 @@ const Learn = () => {
             <h4>Community is everything! Let’s join and collaborate on our various social media platforms.</h4>
            
            <ul>
-            <li><FaFacebook/></li>
-            <li><FaTwitter/></li>
-            <li><FaInstagram/></li>
+            <li><a href='https://www.facebook.com/sfihealthcare'><FaFacebook/></a></li>
+            <li><a href='https://twitter.com/sficare_'><FaTwitter/></a></li>
+            <li><a href="https://www.instagram.com/sfi_care/"><FaInstagram/></a></li>
            </ul>
     </div>
   )

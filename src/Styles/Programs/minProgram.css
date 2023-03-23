@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.minprog {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 400px);
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  padding: 60px 0;
+  padding: 40px;
+}
+
+@media (max-width: 900px) {
+  .minprog {
+    -ms-grid-columns: (45%)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 45%);
+  }
+}
+
+@media (max-width: 768px) {
+  .minprog {
+    -ms-grid-columns: (100%)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 100%);
+  }
+}
+
+@media (max-width: 800px) {
+  .minprog {
+    padding: 40px 10px;
+  }
+}
+
+.minprog .minProgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 292px;
+  margin: 15px 10px;
+  box-shadow: 3px 3px 2px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 2px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 2px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+}
+
+.minprog .minProgs .progImage {
+  min-width: 40%;
+  min-height: 100%;
+  margin-right: 10px;
+}
+
+.minprog .minProgs .progImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.minprog .minProgs .progInfo {
+  min-width: 50%;
+  padding: 30px 0;
+}
+
+.minprog .minProgs .progInfo h2 {
+  font-size: 16px;
+  padding: 10px 0;
+  color: #0092f2;
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 5px;
+}
+
+.minprog .minProgs .progInfo h1 {
+  font-family: "League Spartan", sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #000;
+          text-decoration-color: #000;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.minprog .minProgs .progInfo ul {
+  padding: 10px 15px;
+}
+
+.minprog .minProgs .progInfo ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "League Spartan", sans-serif;
+}
+
+.minprog .minProgs .progInfo ul li img {
+  margin-right: 10px;
+}
+
+.minprog .minProgs .progInfo .lowerPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.minprog .minProgs .progInfo .lowerPart .duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.minprog .minProgs .progInfo .lowerPart .duration img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.minprog .minProgs .progInfo .lowerPart .cardBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.minprog .minProgs .progInfo .lowerPart .cardBtn button {
+  font-family: "League Spartan", sans-serif;
+  padding: 10px;
+  border: 1px solid #0092f2;
+  cursor: pointer;
+  background-color: #0092f2;
+  color: #f5f5f5;
+  margin-right: 10px;
+}
+
+.minprog .minProgs .progInfo .lowerPart .cardBtn .firstBtn {
+  background-color: transparent;
+  color: #0092f2;
+}
+/*# sourceMappingURL=minProgram.css.map */

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.programDetail .programDetailContent {
+  padding: 40px 0;
+}
+
+.programDetail .programDetailContent h1 {
+  text-align: center;
+  font-family: "Roboto", "Times New Roman";
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.programDetail .programDetailContent .detailImg {
+  width: 100vw;
+  height: 350px;
+  padding: 15px 0;
+}
+
+.programDetail .programDetailContent .detailImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.programDetail .programDetailContent .detailbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .programDetail .programDetailContent .detailbody {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.programDetail .programDetailContent .detailbody .detailContent {
+  width: 70%;
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .programDetail .programDetailContent .detailbody .detailContent {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .programDetail .programDetailContent .detailbody .detailContent {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.programDetail .programDetailContent .detailbody .detailContent h4 {
+  width: 100%;
+  font-size: 16px;
+  background-color: #eee;
+  padding: 10px 0;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #0172da;
+          text-decoration-color: #0172da;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
+  font-family: "Roboto", "Times New Roman";
+}
+
+.programDetail .programDetailContent .detailbody .detailContent p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 15px 0;
+}
+
+.programDetail .programDetailContent .detailbody .detailContent ul li {
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
+  list-style-type: square;
+}
+
+.programDetail .programDetailContent .detailbody .detailContent h2 {
+  font-size: 14px;
+  font-family: "Roboto", "Times New Roman";
+  margin: 10px 0;
+}
+
+.programDetail .programDetailContent .detailbody .detailContent button {
+  margin: 0 auto;
+  background: #0080FF;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+  width: 150px;
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice {
+  background-color: #eee;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .programDetail .programDetailContent .detailbody .detailPrice {
+    width: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .programDetail .programDetailContent .detailbody .detailPrice {
+    width: 50%;
+  }
+}
+
+@media (max-width: 580px) {
+  .programDetail .programDetailContent .detailbody .detailPrice {
+    width: 100%;
+  }
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice ul {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice ul li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice ul li .end {
+  font-weight: bold;
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice button {
+  margin: 0 auto;
+  background: #0080FF;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+  width: 150px;
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.programDetail .programDetailContent .detailbody .detailPrice p .shareIcon {
+  color: #0080FF;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=detail.css.map */

@@ -47,6 +47,11 @@
                 border-radius: 10px;
                 font-family: $spartan;
                 box-shadow: 18px 14px 9px rgba(0, 0, 0, 0.01), 10px 8px 8px rgba(0, 0, 0, 0.05), 5px 3px 6px rgba(0, 0, 0, 0.09), 1px 1px 3px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+                a{
+                    color: $paleblue;
+                    text-decoration: none;
+                }
             }
 
             p{

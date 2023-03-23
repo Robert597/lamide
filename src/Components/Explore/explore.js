@@ -8,12 +8,12 @@ const Explore = () => {
         <div className="course-cont">
         <div className='diploma'>
             <p>Diploma Courses</p>
-            <button>Explore</button>
+            <button><a href="#Diploma">Explore</a></button>
         </div>
 
         <div className='certificate'>
             <p>Certificate Courses</p>
-            <button>Explore</button>
+            <button><a href="#Certificate">Explore</a></button>
         </div>
         </div>
     </div>

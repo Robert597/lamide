@@ -26,7 +26,7 @@ const Program = ({data}) => {
             }}>View Course</button>
             <button>Enroll Now</button>
         </div>
-        <div className="price">{data?.price}</div>
+        <div className="price">&#8358;{data?.price}</div>
     </div>
   )
 }

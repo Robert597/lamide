@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Teko:wght@300;400;500;600;700&display=swap");
+.learn {
+  width: 100vw;
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+@media (max-width: 580px) {
+  .learn {
+    padding: 40px 15px;
+  }
+}
+
+.learn hr {
+  border: 1px solid #d70169;
+  width: 300px;
+  margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+  .learn hr {
+    width: 150px;
+  }
+}
+
+.learn h1 {
+  text-align: center;
+  font-family: "Roboto", "Times New Roman";
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .learn h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 580px) {
+  .learn h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .learn h1 {
+    font-size: 16px;
+  }
+}
+
+.learn h4 {
+  text-align: center;
+  font-family: "Roboto", "Times New Roman";
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+@media (max-width: 580px) {
+  .learn h4 {
+    font-size: 14px;
+  }
+}
+
+.learn ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
+.learn ul li {
+  font-size: 50px;
+  margin: 20px 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=learn.css.map */
