@@ -58,15 +58,12 @@ body {
   right: 40px;
   border: none;
   z-index: 11;
-  -webkit-animation: bounce 1s;
-          animation: bounce 1s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: bounce;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
-  -webkit-animation-iteration-count: infinite;
+}
+
+@media (max-width: 580px) {
+  .whatsapp {
+    right: 20px;
+  }
 }
 
 .whatsapp a {
@@ -78,28 +75,6 @@ body {
 
 .whatsapp a .whasappIcon {
   display: inline-block;
-}
-
-@-webkit-keyframes bounce {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  to {
-    -webkit-transform: translateY(-10);
-            transform: translateY(-10);
-  }
-}
-
-@keyframes bounce {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  to {
-    -webkit-transform: translateY(-10);
-            transform: translateY(-10);
-  }
 }
 
 li {

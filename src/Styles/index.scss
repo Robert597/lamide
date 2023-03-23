@@ -39,18 +39,14 @@ body{
     position: fixed;
     bottom: 40px;
     right:40px;
+
+    @include intermediary{
+        right: 20px;
+    }
     border: none;
     z-index: 11;
 
-    animation: bounce 1s;
-                animation-direction: alternate;
-                animation-iteration-count: infinite;
-                -webkit-animation-name: bounce;
-                -webkit-animation-duration: 1s;
-                -webkit-animation-direction: alternate;
-                -webkit-animation-timing-function: cubic-bezier(
-                .5, 0.05, 1, .5);
-                -webkit-animation-iteration-count: infinite;
+    
 
     a{
         color: #25d366;
@@ -65,14 +61,7 @@ body{
       
     }
 }
-@keyframes bounce{
-    from {
-      transform: translateY(0);
-    }
-    to{
-      transform: translateY(-10);
-    }
-  }
+
 
   
 
