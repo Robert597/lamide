@@ -4,6 +4,7 @@ import { MdMailOutline, MdPhone} from "react-icons/md";
 import {ImLocation} from "react-icons/im";
 import "../../Styles/footer.scss";
 import { Link } from 'react-router-dom';
+import { FaLocationArrow } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -36,7 +37,7 @@ const Footer = () => {
         <div className='sec3'>
             <h1>Address</h1>
             <ul>
-                <li><ImLocation className="icon"/> LOA Aremu Court, Ashi/Bodija Junction, Bashorun Road, Ibadan, Oyo state, Nigeria.</li>
+                <li><FaLocationArrow className="icon"/> LOA Aremu Court, Ashi/Bodija Junction, Bashorun Road, Ibadan, Oyo state, Nigeria.</li>
                 <li><MdPhone className="icon"/> 08135430382, 08112320218</li>
                 <li><MdMailOutline className="icon"/> info@sficare.org</li>
             </ul>

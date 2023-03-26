@@ -41,6 +41,29 @@ React.useEffect(() => {
 
             <p>{current?.detail}</p>
 
+            {
+             current?.body &&   current?.body.map((info) => (
+                    <p>{info}</p>
+                ))
+            }
+     <p>{current?.career?.title}</p>
+     <p>{current?.career?.detail}</p>
+            
+
+            <ul>
+                {current?.career && current?.career?.list.map((list) => (
+                    <li>{list}</li>
+                ))}
+            </ul>
+
+            <p>{current?.career?.footer}</p>
+
+            <h3>{current?.sub?.title}</h3>
+            <ul>
+                {current?.sub && current?.sub?.benefit.map((list) => (
+                    <li>{list}</li>
+                ))}
+            </ul>
             <ul>
                 {current?.outline.map((list) => (
                     <li>{list}</li>

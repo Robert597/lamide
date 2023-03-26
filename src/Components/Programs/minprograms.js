@@ -1,12 +1,12 @@
 import React from 'react';
-import MinProgram from './minProgram';
+import Program from './program';
 import "../../Styles/Programs/minProgram.scss";
 
 const MinPrograms = ({data}) => {
   return (
     <div className='minprog'>
         {data?.map((program) => (
-          <MinProgram course={program}/>
+          <Program data={program}/>
         ))}
     </div>
   )
