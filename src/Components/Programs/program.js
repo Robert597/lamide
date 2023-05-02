@@ -24,7 +24,9 @@ const Program = ({data}) => {
             <button className='firstBtn' onClick={() => {
                 navigate(`/detail/${data?.id}`)
             }}>View Course</button>
-            <button>Enroll Now</button>
+            <button onClick={() => {
+                navigate(`/register`)
+            }}>Enroll Now</button>
         </div>
         <div className="price">&#8358;{data?.price}</div>
     </div>

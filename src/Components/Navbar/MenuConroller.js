@@ -32,7 +32,7 @@ const MenuController = () => {
             <li onClick={() => setShowMenuModal(prev => !prev)}
            ><NavLink activeClassName="active" to="/contact">Contact Us</NavLink></li>
             <li 
-           ><NavLink onClick={() => setShowMenuModal(prev => !prev)}activeClassName="active" to="/events">Events</NavLink></li>
+           ><NavLink onClick={() => setShowMenuModal(prev => !prev)}activeClassName="active" to="/event">Events</NavLink></li>
 
         </ul>
         </div>

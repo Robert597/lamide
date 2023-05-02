@@ -12,6 +12,8 @@ import Contact from "./Pages/Contact/contact";
 import Detail from "./Pages/Project/detail";
 import React from 'react';
 import {IoLogoWhatsapp} from "react-icons/io";
+import Eventpage from "./Components/Eventpage/eventpage";
+import Form from "./Components/Form/registerform";
 
 function App() {
   const {pathname} = useLocation();
@@ -30,6 +32,8 @@ function App() {
       <Route  path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/detail/:id" element={<Detail/>}/>
+      <Route path="/event" element={<Eventpage/>}/>
+      <Route path="/register" element={<Form/>}/>
     </Routes>
     <Footer/>
     </div>

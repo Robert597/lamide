@@ -1,0 +1,71 @@
+@import "../variables.scss";
+.eventPage{
+    width: 100vw;
+    background: $white;
+    min-height: 100vh;
+    padding: 40px;
+
+    @include intermediary{
+        padding: 25px;
+     }
+
+    hr{
+        border: 1px solid $orange;
+        width: 300px;
+        margin: 10px auto;
+        @include cards{
+           width: 150px;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-family: $roboto;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 30px;
+        padding: 10px 0;
+
+        @include cards{
+            font-size: 25px;
+         }
+         @include intermediary{
+            font-size: 20px;
+         }
+         @include small{
+            font-size: 16px;
+         }
+    }
+
+    .imageGrid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+
+        @include card {
+            grid-template-columns: repeat(auto-fit, 45%);
+        }
+        @include cards{
+            grid-template-columns: repeat(auto-fit, 100%);
+        }
+        column-gap: 10px;
+        row-gap: 15px;
+        justify-content: center;
+        place-items: center;
+        padding: 60px 0;
+
+        .imggrid{
+            width: 100%;
+            min-height: 300px;
+            position: relative;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+    }
+}

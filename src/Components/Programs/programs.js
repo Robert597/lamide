@@ -1,11 +1,12 @@
 import React from 'react';
-import {data} from "../../Utils/courses.js";
+import {diploma, certificate} from "../../Utils/courses.js";
 import Program from './program.js';
 
 
 
 
 const Programs = () => {
+  const data = diploma.concat(certificate);
   return (
     <div className="programContainer">
         <hr/>

@@ -6,7 +6,6 @@ const Director = () => {
   return (
     <div className='director'>
         <h1>Director's Statement</h1> 
-        <img src={director} alt="director"/>
         <p>I welcome you to the SFI HEALTH AND CARE. This institution is designed to handle lecture sessions for vaious health and social care diploma and certification courses which could be used for migration to USA, UK, CANADA etc on work Visa or permanent residency.
           <br/>
           <br/>

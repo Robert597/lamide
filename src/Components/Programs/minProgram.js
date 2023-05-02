@@ -27,7 +27,9 @@ const MinProgram = ({course}) => {
             <button className='firstBtn' onClick={() => {
                 navigate(`/detail/${course?.id}`)
             }}>View Course</button>
-            <button>Enroll Now</button>
+            <button onClick={() => {
+                navigate(`/register`)
+            }}>Enroll Now</button>
         </div>
             </div>
         </div>

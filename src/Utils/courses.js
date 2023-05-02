@@ -19,11 +19,7 @@
         body: ["A Certified Nurse’s Assistant (CNA) is a healthcare professional and a valued member of the healthcare team who plays a pivotal role in caring for patients by providing basic quality-of-life needs. They offer patients compassion and patience while assisting them with day-to-day life tasks such as dressing, bathing and feeding, oral and toileting care as well as vital signs and intake and output. They also support doctors and nurses in diagnostic procedures and technical treatments.",
     "CNAs also typically assist in patient charting and instruction, documenting any care that is given and report significant observations to the nursing staff.",
     "Course program subjects include infection control, communication and interpersonal skills, safety and emergency procedures, personal care skills, psychosocial needs, basic restorative services, basic nursing skills, quality improvement and more.  "],
-        outline: [
-            "cohort learning",
-            "Live with instructor",
-            "One on One Mentorship"
-        ],
+        
         sub: {
             title: "How will you benefit",
             benefit: [" Solid job security and frequently work a flexible schedule.", "CNAs work in nursing homes, home care, assisted living, hospitals, community based long-term care, correctional institutions, and other care settings.", "On successful completion, a diploma will be awarded which can be used to gain employment in Europe, UK and the US as well as Nigeria"],
@@ -38,7 +34,7 @@
         id: 2,
         title: "Diploma in Health and Social Care",
         detail: "",
-        outline: [ "Self-paced learning", "Cohort Learning", "Live with instructor", "One-on-One mentorship", "Up to two-time installment payment"],
+       
         price: 295000,
         image: Second
     },
@@ -65,15 +61,12 @@
             " Learn the inside secrets of how to become a Pharmacy Assistant professional in months not years!",
             "Fast tract your career as a Pharmacy Assistant.",
             " Study at your own pace whenever and wherever you are.",
-            "tudy a pharmacy assistant course that was designed in conjunction with senior members of the profession."
+            "Study a pharmacy assistant course that was designed in conjunction with senior members of the profession."
         ],
         footer: "Tuition covers lectures, handouts, quizzes, exams and all the material required for this course; also a detailed visual practical sessions."},
         prerequisites: "There are NO previous work or education requirements for entry into any course level.", 
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Up to two-time installment payment"
-        ],
+        
         price: 295000,
         image: Third
     },
@@ -99,12 +92,7 @@
             title: "Career Prospects",
             detail: "Health Information Management graduates work as information management practitioners, coordinators and analysts in many different areas of health care including hospital admitting, quality management, research and statistics, information systems, utilization management and risk management. Look for positions with health regions, government agencies, community clinics, long-term care facilities, home care agencies and mental health or outreach programs. Or transfer your skill set into other areas such as education, law enforcement, insurance and research."
         },
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
+       
         price: "155,000",
         image: Fourth
     },
@@ -116,12 +104,7 @@
             "Raising public awareness of mental health issues has become an important global healthcare goal over the last several decades. We examine the causes, symptoms and treatment of various forms to let you understand how to preserve your own mental health and even assist those around you.",
             "The course begins by showing you how to tell people who exhibit ‘normal’ behavior apart from those suffering mental distress. We also explain how to identify a range of neurotic and psychotic behavioral tendencies. We cover a range of personality disorders, phobias, neurotic behaviours and the complex questions surrounding substance abuse."
         ],
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
+        
         price: 295000,
         image: Fifth
     },
@@ -154,12 +137,7 @@
             footer: "As an industrial-organizational psychologist, it’s never a dull day at work. You’ll get satisfaction from helping to improve work processes and environments in a multitude of ways. Some typical job descriptions include working in consulting, consumer, engineering or personnel psychology. "
         },
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
+      
         price: 145000,
         image: Sixth
     },
@@ -192,7 +170,7 @@
                 "Care Certificate Standard Number 14 – Handling Information (Information Governance)",
                 "Care Certificate Standard Number 15 – Infection Prevention and Control"
             ],
-            footer: "Who is this Care Certificate training for?Although the Care Certificate is designed for new staff, it also offers opportunities for existing staff working at various levels to refresh or improve their knowledge and skills."
+           
         },
         sub: {
             title: "You’ll be expected to complete the Care Certificate if you’re: ",
@@ -204,15 +182,12 @@
     "Those giving support to clinical roles in the NHS where there is any direct contact with patients",
 "Adult Social Care workers giving direct care in residential, nursing homes and hospices, home care workers and domiciliary care staff.",
 "Other roles in health and social care such as caring volunteers, porters, cooks, maintenance or drivers that have direct contact with patients and/or service users.",
-"New person to health or social care"]
+"New person to health or social care"],
+footerHeader: "Who is this Care Certificate training for?",
+footer: "Although the Care Certificate is designed for new staff, it also offers opportunities for existing staff working at various levels to refresh or improve their knowledge and skills"
         },
+       
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
         price: 215000,
         image: Seventh
     },
@@ -233,12 +208,6 @@ sub: {
 },
 
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
         price: 95000,
         image: Eigth
     },
@@ -246,12 +215,6 @@ sub: {
         id: 9,
         title: "Psychiatric and mental health",
         detail: "",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
         price: 345000,
         image: Ninth
     },
@@ -272,12 +235,6 @@ sub: {
         },
         prerequisites: "There are NO previous work or education requirements for entry into any course level.", 
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
         price: 95000,
         image: Tenth
     },
@@ -299,30 +256,19 @@ sub: {
 "Effective communication as a member and leader of a resuscitation team."],
         },
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
         price: 115000,
         image: Eleventh
     },
     {
         id: 12,
         title: "Pediatric Life Support (real nursing)",
-        detail: "The course provides life-saving procedures and skills to employ when faced by emergency situations and trains you to identify respiratory distress symptoms in infants and administer intervention measures.",
+        detail: "",
         body: [
             "This PALS course is of great help to anyone dealing with children and infants. The course provides life-saving procedures and skills to employ when faced by emergency situations and trains you to identify  respiratory distress symptoms in infants and administer intervention measures.",
             "The course will explain more about resuscitation tools that are available as an essential component of PALS; two adjuncts broken down into medical devices and pharmacological tools. Study the various types of shock, and how to recognize and respond to them. You will master post-resuscitationcare and its roles in optimizing ventilation and circulation, preserving organ and tissue function, and maintaining recommended blood glucose levels."
         ],
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
+       
         price: 115000,
         image: Last
     },
@@ -344,12 +290,7 @@ sub: {
         "Janitorial staff - responsible for cleaning medically hazardous waste."],
         },
         study: "physical, fulltime, part-time",
-        outline: [
-            
-            "Self-paced learning",
-            "Live with instructor",
-            "Up to two-time installment payment"
-        ],
+      
         price: 65000,
         image: Second
     }
@@ -395,7 +336,6 @@ export const certificate = [
         title: "Certificate in Health Information Management.",
         detail: "Our HIM course will prepare you with the skills and knowledge to be at the forefront of managing critical health information.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -408,7 +348,6 @@ export const certificate = [
         title: "Mental Health Nursing",
         detail: "We explain how to identify a range of neurotic and psychotic behavioral tendencies. We cover a range of personality disorders, phobias, neurotic behavior and the complex questions surrounding substance abuse.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -421,7 +360,6 @@ export const certificate = [
         title: "Psychology at Workplace",
         detail: "This course covers the main concepts of Workplace Psychology, focusing on the techniques of Job Analysis, (which provides information about recruitment, selection and performance appraisal, necessary tools to prepare a job description) and Job Design.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -434,7 +372,6 @@ export const certificate = [
         title: "Care Certification Standard (1-15)",
         detail: "",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -447,7 +384,6 @@ export const certificate = [
         title: "Cardiopulmonary Resuscitation & First aid",
         detail: "",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -460,7 +396,6 @@ export const certificate = [
         title: "Psychiatric and mental health",
         detail: "",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -473,7 +408,6 @@ export const certificate = [
         title: "Basic Life Support (For real nursing)",
         detail: "This Basic Life Support training course is suitable for all healthcare and social care professionals working with adults in clinical and/or non-clinical staff roles.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -486,7 +420,6 @@ export const certificate = [
         title: "Advanced Cardiac Life Support",
         detail: "ACLS is for healthcare professionals who either direct or participate in the management of cardiopulmonary arrest or other cardiovascular emergencies and for personnel in emergency response.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -499,7 +432,6 @@ export const certificate = [
         title: "Pediatric Life Support (real nursing)",
         detail: "The course provides life-saving procedures and skills to employ when faced by emergency situations and trains you to identify respiratory distress symptoms in infants and administer intervention measures.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
@@ -512,7 +444,6 @@ export const certificate = [
         title: "Blood Borne Pathogen( real nursing)",
         detail: "This bloodborne pathogen course is idealfor workers who are expected to make direct or indirect contact with blood and other infectious materials.",
         outline: [
-            "NHCPS Certificate",
             "Self-paced learning",
             "Live with instructor",
             "Up to two-time installment payment"
